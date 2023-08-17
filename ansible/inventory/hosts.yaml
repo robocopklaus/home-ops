@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        d34010wyk:
+          ansible_user: k8s
+          ansible_host: 192.168.0.8
